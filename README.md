@@ -1,12 +1,21 @@
 # Node.js End-point in a Container
 
-1. Open a web browser to https://console.aws.amazon.com
-1. From the services select Cloud9 and open the environment we used before for terraform setup
-1. Open a terminal and clone the repo with end-point source code:
+Open a web browser to https://console.aws.amazon.com
+
+From the services select Cloud9 and open the environment we used before for terraform setup
+
+Open a terminal and clone the repo with end-point source code:
 ```
 git clone https://github.com/vkhazin/courseware-nodejs-container.git
 ```
-1. 
+
+To build a docker image execute: `docker build -t node/end-point`
+
+Expected result:
+```
+
+```
+
 * First of all, we need to create our image
 
 		docker build -t myapi/node 
